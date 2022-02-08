@@ -10,10 +10,16 @@
 <body> 
  <nav role="navigation">
 <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Fast</a></li>
-    <li><a href="#">Sprints</a></li>
-    <li><a href="#">Contacts</a></li>
+    <li><a style="font-size: 30px;" href="#">Home</a></li>
+    <li><a style="font-size: 30px;" href="#">Fast</a>
+        <ul>
+            <li><a onmouseout="this.innerHTML = 'Sprint 1'" onmouseover="this.innerHTML = 'The Beginning'" href="#">Sprint 1</a></li>
+            <li><a onmouseout="this.innerHTML = 'Sprint 2'" onmouseover="this.innerHTML = 'Markup master'" href="#">Sprint 2</a></li>
+            <li><a onmouseout="this.innerHTML = 'Sprint 3'" onmouseover="this.innerHTML = 'Front-end dev'" href="#">Sprint 3</a></li>
+        </ul>
+    </li>
+    <li><a style="font-size: 30px;" href="#">Sprints</a></li>
+    <li><a style="font-size: 30px;" href="#">Contacts</a></li>
 </ul>
  </nav>
 </body>
