@@ -1,0 +1,39 @@
+body{
+background-color: beige;
+}
+
+
+h1{
+    font-family: sans-serif;
+    color: sandybrown;
+    font-weight: 1000;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    color: sienna;
+    font-size: 20px;
+}
+
+hr{
+    color: gainsboro;
+    width: 400px;
+    position: relative;
+    right: 750px;
+}
+
+ul{
+    list-style-type: '#';
+}
+
+a{
+    font-size: 20px;
+    color: sienna;
+    font-weight: 500;
+    margin: 10px;
+}
+
