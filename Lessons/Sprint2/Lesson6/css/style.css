@@ -1,0 +1,17 @@
+.aboba1{
+    display: flex;
+    justify-content: space-between;
+    width: 1800px;
+}
+
+#main2{
+    width: 1800px;
+}
+
+
+.asd{
+    width: 200px;
+    height: 200px;
+    border: 20px solid springgreen;
+    float: left;
+}
