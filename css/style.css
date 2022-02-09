@@ -25,7 +25,7 @@ ul{
 ul li a{ 
     width: 150px;
     height: 70px;
-    background-color:rgb(221, 67, 67);
+    background-color:crimson;
     color: white;
     margin: 0px;
     text-align: center;
@@ -78,5 +78,131 @@ ul li ul li {
 
 .header{
     width: 100%;
-    height: 250px;
+    height: 130px;
+    border: 10px solid black;
+    background-color:crimson;
 }
+
+.navbar_float1{
+    float: left;
+    width: 700px;
+}
+
+.navbar_float2{
+    float: left;
+    text-align: right;
+    width: 850px;
+    line-height:130px;
+    height: 130px;
+}
+
+.My_projects{
+    font-weight: 1000;
+    font-size: 60px;
+    text-align: right;
+    color: white;
+   cursor: default;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+.Main{
+    width: 100%;
+    height: 1000px;
+    display: inline-block;
+}
+
+.Content_1{
+background-color: crimson;
+width: 80%;
+height: 900px;
+text-align: center;
+transition: 2s;
+display: list-item;
+list-style-type: none;
+}
+
+.Content_1:hover{
+    transition: 2s;
+    color: white;
+    
+}
+
+
+
+.Content_2{
+    background-color: green;
+    width: 80%;
+height: 200px;
+margin-top: 150px;
+    }
+
+
+    .Content_3{
+        background-color: blue;
+        width: 80%;
+height: 200px;
+margin-top: 150px;
+        }
+
+
+        .otstup{
+            height: 100px;
+        }
+
+
+
+.text_content1{
+   line-height: 100px;
+    left: 200px;
+    top: 90px;
+    font-size: 50px;
+    cursor: default;
+}
+
+.text_content2{
+    
+    left: 200px;
+    top: 380px;
+    font-size: 50px;
+    
+    cursor: default;
+}
+
+
+.text_content3{
+    
+    left: 200px;
+    top: 690px;
+    font-size: 50px;
+    
+    cursor: default;
+}
+
+
+.content_block{
+    width: 400px;
+    height: 300px;
+    background-color: lightcoral;
+    margin-top:80px ;
+    border: 5px solid black;
+    transition: 2s;
+}
+
+
+.Content_1:hover .content_block{
+    border: 5px solid white;
+    transition: 2s;
+}
+
+
+
+.space_between{
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+

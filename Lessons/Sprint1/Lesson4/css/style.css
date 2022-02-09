@@ -1,0 +1,105 @@
+body{
+    font-family:sans-serif;
+}
+
+
+th{
+    border: 5px solid gainsboro;
+height: 700px;
+border-radius:25px ;
+    width: 1000px;
+
+}
+
+.aboba{
+    width: 600px;
+    height: 700px;
+background-color: white;
+border-radius: 25px;
+border: 5px solid gainsboro;
+
+}
+
+
+table{
+    position: relative;
+    left: 7%;
+    top: 100px;
+}
+
+.need{
+    width: 80%;
+}
+
+.lol{
+    position: relative;
+    top: 0px;
+    
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+h6{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.aboba1{
+    position: relative;
+    right: 300px;
+    top: -50px;
+}
+h5{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.hhd{
+    position: relative;
+    top: -20px;
+}
+
+.needed{
+    position: relative;
+    right: -300px;
+}
+
+.button_s{
+    width: 300px;
+    height: 100px;
+    background-color: cadetblue;
+    color: chartreuse;
+    font-size: 30px;
+    border: 5px solid black;
+    position: relative;
+    top: 25px;
+}
+
+a{
+    color: blanchedalmond;
+    text-decoration: dashed;
+}
+
+.button_s:hover > a{
+    
+    color: rgb(194, 109, 5);
+}
+
+
+.button_s:hover{
+    background-color: beige;
+}

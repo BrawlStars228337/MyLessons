@@ -1,0 +1,43 @@
+td{
+    border: 2px solid black;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rosybrown;
+}
+
+th{
+    border: 2px solid black;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+th:hover{
+    background-color: aquamarine;
+}
+
+td:hover{
+    background-color: brown;
+}
+
+.tg:hover {
+    
+    max-width: 80%;
+    
+    background: gold;
+    box-shadow: 0 -200px 100px -120px crimson inset;
+    border-radius: 30px;
+    border: 10px solid white;
+    animation: background 3s infinite alternate;
+  }
+  
+  @keyframes background {
+    50% {
+      background: skyblue;
+      box-shadow: 0 -200px 100px -100px yellowgreen inset;
+    }
+  }
