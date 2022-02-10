@@ -25,7 +25,7 @@ ul{
 ul li a{ 
     width: 150px;
     height: 70px;
-    background-color:crimson;
+    background-color:rgb(240, 85, 85);
     color: white;
     margin: 0px;
     text-align: center;
@@ -80,7 +80,7 @@ ul li ul li {
     width: 100%;
     height: 130px;
     border: 10px solid black;
-    background-color:crimson;
+    background-color:rgb(240, 85, 85);
 }
 
 .navbar_float1{
@@ -121,6 +121,7 @@ text-align: center;
 transition: 2s;
 display: list-item;
 list-style-type: none;
+border: 10px solid black;
 }
 
 .Content_1:hover{
@@ -192,10 +193,19 @@ margin-top: 150px;
 
 
 .Content_1:hover .content_block{
-    border: 5px solid white;
+    border: 5px solid black;
     transition: 2s;
 }
 
+.Content_1:hover .content_text_lesson{
+    transition: 2s;
+    color: white;
+}
+
+.Content_1:hover .content_text_name{
+    color: white;
+    transition: 2s;
+}
 
 
 .space_between{
@@ -206,3 +216,47 @@ margin-top: 150px;
 }
 
 
+.content_text_lesson{
+    font-size: 40px;
+    color: black;
+    transition:2s;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.content_text_name{
+    font-size: 25px;
+    color: black;
+    transition:2s;
+    text-align: left;
+margin-left: 20px;
+}
+
+.Content_1:hover .content_text_button{
+    color:white;
+    transition: 2s;
+    
+}
+
+.content_text_button:hover{
+    background-color: gold;
+    transition: 0.2s;
+    transition-duration: 0.2s;
+    
+}
+
+
+.content_text_button{
+    display: block;
+    font-size: 30px;
+    color: black;
+    transition: 2s;
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: crimson;
+transition: 2s;
+border: 3px solid black;
+}
