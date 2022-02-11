@@ -52,7 +52,7 @@ ul li ul{
     display: none;
     top: 54px;
     left: 50px;
-    
+    z-index: 100;
 }
 
 
@@ -122,6 +122,7 @@ transition: 2s;
 display: list-item;
 list-style-type: none;
 border: 10px solid black;
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .Content_1:hover{
@@ -133,10 +134,17 @@ border: 10px solid black;
 
 
 .Content_2{
-    background-color: green;
+    background-color:cyan;
     width: 80%;
-height: 200px;
+height: 3250px;
 margin-top: 150px;
+text-align: center;
+transition: 2s;
+display: list-item;
+list-style-type: none;
+border: 10px solid black;
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
     }
 
 
@@ -163,21 +171,20 @@ margin-top: 150px;
 }
 
 .text_content2{
-    
     left: 200px;
     top: 380px;
     font-size: 50px;
-    
+    line-height: 100px;
     cursor: default;
+    transition: 2s;
 }
 
 
 .text_content3{
-    
+    line-height: 100px;
     left: 200px;
     top: 690px;
     font-size: 50px;
-    
     cursor: default;
 }
 
@@ -189,6 +196,11 @@ margin-top: 150px;
     margin-top:80px ;
     border: 5px solid black;
     transition: 2s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.content_block2{
+    background-color:springgreen;
 }
 
 
@@ -208,6 +220,29 @@ margin-top: 150px;
 }
 
 
+.Content_2:hover .content_block{
+    border: 5px solid black;
+    transition: 2s;
+}
+
+.Content_2:hover .content_text_lesson{
+    transition: 2s;
+    color: white;
+}
+
+.Content_2:hover .content_text_name{
+    color: white;
+    transition: 2s;
+}
+
+.Content_2:hover .text_content2{
+    color: white;
+    transition: 2s;
+}
+
+
+
+
 .space_between{
     width: 100%;
     display:flex;
@@ -223,6 +258,7 @@ margin-top: 150px;
     text-align: left;
     margin-left: 20px;
     margin-top: 20px;
+   
 }
 
 .content_text_name{
@@ -239,12 +275,20 @@ margin-left: 20px;
     
 }
 
+
+.Content_2:hover .content_text_button{
+    color:aquamarine;
+    transition: 2s;
+    
+}
+
 .content_text_button:hover{
     background-color: gold;
     transition: 0.2s;
     transition-duration: 0.2s;
     
 }
+
 
 
 .content_text_button{
@@ -256,7 +300,35 @@ margin-left: 20px;
     line-height: 50px;
     width: 200px;
     height: 50px;
-    background-color: crimson;
+    background-color:crimson;
 transition: 2s;
 border: 3px solid black;
 }
+
+.content_text_button2{
+    background-color: blueviolet;
+}
+
+.badge{
+width: 70px;
+height: 20px;
+background-color: white;
+border: 1px solid black;
+position: relative;
+color: black;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius: 40px;
+text-align: center;
+line-height: 20px;
+font-weight: 600;
+transition: 0.2s;
+right: -120px;
+top: -180px;
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.badge:hover{
+    background-color: gold;
+    transition: 0.2s;
+}
+
